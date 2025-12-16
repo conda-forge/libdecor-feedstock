@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: libdecor
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/libdecor/libdecor/-/archive/{{ version }}/libdecor-{{ version }}.tar.bz2
-  sha256: c3510083742e940a169bb3787ff96241167b01a7205c1ed9a9061536770dac8c
+  sha256: 1d0e9b3d2711dfc4edc21db3c87752a76cd62079cfad447699acda5d49b23536
 
 build:
   skip: true  # [not linux]
